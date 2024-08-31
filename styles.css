@@ -331,9 +331,12 @@ summary {
     list-style: none;
 }
 
+summary::-webkit-details-marker {display: none;}
+
 details:hover {
     background-color: var(--color-accent-3);
     color: white;
+    overflow: hidden;
 }
 
 .sub-summary{
