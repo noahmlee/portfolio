@@ -77,7 +77,7 @@
                 <h1>Noah Lee</h1>
                 <div class="vwrap">
                     <div class="vmove">
-                        <div class="vslide">Front-End Web Developer</div>
+                        <div class="vslide">Frontend Web Developer</div>
                         <div class="vslide">Hardware Geek</div>
                         <div class="vslide">Hockey Fan</div>
                         <div class="vslide">Video-Game Enjoyer</div>
@@ -97,7 +97,7 @@
                     <p>Enthusiastic web developer and dedicated student committed to expanding my skillset and making meaningful contributions to the tech world.</p>
                     <details class="sub-details">
                         <summary class="sub-summary">Hobbies</summary>
-                        <section>
+                        <section id="hobbies">
                             <ul>
                                 <li>Web design and development</li>
                                 <li>Small electronics repair</li>
@@ -126,24 +126,46 @@
             <!-- Skills section -->
             <details>
                 <summary>My Skills</summary>
-                <section id="skills">
-                    <ul>
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>React, Node.js</li>
-                        <li>Responsive and Accessible Design</li>
-                    </ul>
-                </section>
+                <details class="sub-details">
+                    <summary class="sub-summary">Frontend Skills</summary>
+                    <section id="skills">
+                        <ul>
+                            <li>HTML, CSS, JS, React</li>
+                            <li>Responsive and Accessible Design</li>
+                        </ul>
+                    </section>
+                </details>
+                <details class="sub-details">
+                    <summary class="sub-summary">Backend Skills</summary>
+                    <section id="skills">
+                        <ul>
+                            <li>Node.js, Python, Java</li>
+                            <li>Database Management</li>
+                            <li>Version Control</li>
+                        </ul>
+                    </section>
+                </details>
+                <details class="sub-details">
+                    <summary class="sub-summary">Other Skills</summary>
+                    <section id="skills">
+                        <ul>
+                            <li>C, Visual Basic</li>
+                            <li>Project Management</li>
+                            <li>Systems Administration</li>
+                            <li>Microcontroller Programming</li>
+                        </ul>
+                    </section>
+                </details>
             </details>
 
             <!-- Projects section -->
             <details>
                 <summary>My Projects</summary>
-                <section id="myProjects">
-                    <div class="project">
-                        <h3>To-Do List</h3>
-                        <p>My first Web-Development project, making use of local storage scripts.</p>
-                    </div>
-                </section>
+                <details class="sub-details">
+                    <summary class="sub-summary">To-Do List</summary>
+                    <h3>To-Do List</h3>
+                    <p>My first web development project. </p>
+                </details>
             </details>
 
             <!-- Education section -->
@@ -155,12 +177,6 @@
                         <p>Associate's in Applied Science<br>
                         Web-Development<br>
                         2022-2024</p>
-                        <ul>
-                            <li>HTML, CSS, JS</li>
-                            <li>Project Management</li>
-                            <li>Systems Administration</li>
-                            <li>Database Engineering</li>
-                        </ul>
                     </div>
                 </section>
             </details>
