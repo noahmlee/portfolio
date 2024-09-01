@@ -294,6 +294,14 @@ p {
     body {
         padding-top: 5rem;
     }
+
+    /* Make buttons full-width on mobile */
+    button {
+        width: 100% !important;
+        margin-bottom: 10px;
+        box-sizing: border-box !important;
+        text-decoration: none;
+    }
 }
 
 /* Large screens */
@@ -376,7 +384,4 @@ details:hover {
     background: var(--color-accent-2);
     padding: 10px;
     width: 48%;
-  }
-
-  .contact button {
   }
