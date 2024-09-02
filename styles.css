@@ -64,7 +64,7 @@ header h1 {
 
 /* Link styles */
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: var(--color-bg-dark);
 }
 
@@ -300,7 +300,7 @@ p {
         width: 100% !important;
         margin-bottom: 10px;
         box-sizing: border-box !important;
-        text-decoration: none;
+        text-decoration: none !important;
     }
 }
 
