@@ -3,6 +3,9 @@ I treat this website as a learning enviornment so commits are frequent and numer
 Its currently hosted using CloudFlare Pages.
 
 If you have any questions or would just like to chat you can contact me through email or one of my socials!
+<br>
 Email: nmckadelee0128@gmail.com
+<br>
 LinkedIn: https://www.linkedin.com/in/nmckadelee/
+<br>
 Instagram: https://www.instagram.com/boah.bee
